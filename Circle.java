@@ -19,8 +19,8 @@ public class Circle {
         this.color = color;
     }
     public void setPos(double x, double y) {
-        this.xPos = (x+y)/2;
-        this.yPos = (y+x)/2;
+        this.xPos = x;
+        this.yPos = y;
     }
     public void setRadius(double r) {
         this.radius = r;
